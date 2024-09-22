@@ -32,3 +32,32 @@ In a microservices architecture, service-oriented services are fine-grained and 
 ## From Monolith to Microservices
 * Break your application/system in small units. 
 * Use the strangler pattern.
+
+## Microservices - Benefits
+* Improved fault isolation
+* Eliminate vendor or technology lock-in
+* Ease of understanding
+* Smaller and faster Deployments
+* Scalability
+
+## Microservices - Drawbacks
+* Complexity is added to resolve complexity issues
+    * Is your team trained, ready and has made POCs?
+    * Don't start with a complex infrastructure. 
+* Testing may appear simpler but is it?
+* Deployment may appear simpler but is it? 
+    * Hard to do with multiple teams
+    * One microservice update can impact many mircoservices.
+* Multiple databases?
+* Latency issues
+* Transient errors
+* Multiple point of failures
+* How about security?
+
+## Cloud Native
+* Within a short time, cloud native has become a driving trend in the software industry.
+    * It's a new way to think about building comple systems.
+    * Takes full advantage of modern software development practices, technologies, and cloud infrastructure.
+    * Widely popular in the open source communities. 
+
+## Cloud Native Concepts
