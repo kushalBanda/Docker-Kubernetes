@@ -147,3 +147,48 @@ docker version
 docker login   
 ```
 * Log in to a Docker registry
+
+``` bash
+docker pull [imageName]
+```
+* Pull an image from a registry
+
+``` bash
+docker run [imageName]
+```
+* Run Containers
+
+``` bash
+docker run -d [imageName]
+```
+* Detached model
+
+``` bash
+docker start [containerName]
+```
+* Start Stop containers
+
+``` bash
+docker ps
+```
+* List running containers
+
+``` bash
+docker ps -a
+```
+* List running and stopped containers
+
+``` bash
+docker stop [containerName]
+```
+* Stop containers
+
+``` bash
+docker kill [containerName]
+```
+* Kill containers
+
+``` bash
+docker image inspect [imageName]
+```
+* Get image info
