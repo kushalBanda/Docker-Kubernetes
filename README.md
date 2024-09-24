@@ -192,3 +192,55 @@ docker kill [containerName]
 docker image inspect [imageName]
 ```
 * Get image info
+
+``` bash
+docker run --memory="256m" nginx
+```
+* Max memory 
+
+``` bash
+docker run --cpus=".5" nginx
+```
+* Max CPU
+
+### Docker - Attach shell
+``` bash
+docker run -it nginx -- /bin/bash
+```
+* Attach Shell
+
+``` bash
+docker run -it --microsoft/powershell:nanoserverpwsh.exe
+```
+* Attach Powershell
+
+``` bash
+docker container exec -it [containername] -- bash
+```
+* Attach to a running container
+
+## Docker - Cleaning up
+``` bash
+docker rm [containerName]
+```
+* Removes stopped containers
+
+``` bash
+docker rm $(docker ps -a -q)
+```
+* Removes all stopped containers
+
+``` bash
+docker images
+``` 
+* List images
+
+``` bash 
+docker rmi [imageName]
+```
+* Deletes the images
+
+``` bash
+docker system prune -a
+```
+* Removes all images not in use by any containers
